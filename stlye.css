@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{  border:1px solid #007bff;
+    box-shadow: 0 0 10px #007bff,0 0 15px #007bff; height:100vh;}
+.textBox{
+    padding:8px;
+    position: relative;
+}
+.textBox .form-control{
+    border-radius: 20px !important;
+    height:auto;
+    padding:.150rem .75rem !important;
+}
+.form-control:focus{
+    border-color:transparent !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+input[type='serach']::placeholder{
+    font-size:1rem;
+}
+
+.plus-icon{
+    position: absolute;
+    top:17px;
+    /* bottom: 18px; */
+    right: 18px;
+    height: 40px;
+    width: 40px;
+    background: orange;
+    color: #fff;
+    font-size: 22px;
+    padding: 4px;
+    text-align: center;
+    /* line-height: 3rem; */
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.To-Do-List-App{
+    width:600px;
+    height:60vh;
+    border:1px solid #007bff;
+    box-shadow: 0 0 10px #007bff,0 0 15px #007bff;
+    margin:auto;
+    transform: translateY(25%);
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+.To-Do-List-App::-webkit-scrollbar{
+    width:8px;
+}
+.To-Do-List-App::-webkit-scrollbar-track{
+   background:#007bff;
+}
+.To-Do-List-App::-webkit-scrollbar-thumb{
+   background: orange;
+   border-radius: 5px;
+}
+
+
+
+
+.modal{
+    top:0px !important;
+    padding:8px;
+}
+.modal .modal-header{
+    padding:8px 8px !important;
+}
+.modal .modal-body {
+    height: 21.50vh;
+}
+.modal-backdrop{
+    width:auto !important;
+}
+textarea{
+    border: none !important;
+}
+.shadow-textarea textarea.form-control::placeholder {
+    font-weight: 300;
+}
+.shadow-textarea textarea.form-control {
+    padding-left: 0.8rem;
+}
+
+.orange{
+    color:#fff;
+    outline:none;
+    border:none;
+    font-size:10px;
+}
+.orange:hover{
+    color:#fff !important;
+}
+p{margin-bottom: .6rem;}
